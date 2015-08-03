@@ -20,7 +20,8 @@ class FizzBuzzSould(unittest.TestCase):
  +     *   3 => 1\Fizz\Buzz (porque 2 es divisible por 2)
  +     *   6 => 1\Fizz\Buzz\Fizz\5\FizzBuzz
  '''
-
+ def test_not_parse_numbers_when_they_are_not_divisible_by_two_or_three(self):
+    self.assertEqual(FizzBuzz(1).parse(), '1\n')
 
 
 if __name__ == '__main__':
