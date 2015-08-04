@@ -3,6 +3,7 @@
 
 import unittest
 
+from fizzbuzz import FizzBuzz
 
 class FizzBuzzSould(unittest.TestCase):
 
