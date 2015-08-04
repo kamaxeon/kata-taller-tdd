@@ -30,8 +30,8 @@ class FizzBuzzSould(unittest.TestCase):
  def test_parse_numbers_divisible_by_three_to_fizz(self):
     self.assertEqual(FizzBuzz(3).parse(), '1\nFizz\nBuzz\n')
 
- def test_parse_numbers_divisible_by_three_and_two_to_fizzbuzz(self):
-    self.assertEqual(FizzBuzz(6).parse(), '1\nFizz\nBuzz\n\Fizz\5\FizzBuzz\n')
+ def test_parse_numbers_divisible_by_two_and_three_to_fizzbuzz(self):
+    self.assertEqual(FizzBuzz(6).parse(), '1\nFizz\nBuzz\nFizz\n5\nFizzBuzz\n')
 
 if __name__ == '__main__':
   unittest.main()
