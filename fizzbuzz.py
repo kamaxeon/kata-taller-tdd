@@ -3,6 +3,6 @@
 
 class FizzBuzz(object):
   def __init__(self, number):
-    pass
+    self.number = number
   def parse(self):
-    return '1\n'
+    return '%i\n' % self.number
