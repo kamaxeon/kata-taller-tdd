@@ -27,7 +27,8 @@ class FizzBuzzSould(unittest.TestCase):
  def test_parse_numbers_divisible_by_two_to_fizz(self):
     self.assertEqual(FizzBuzz(2).parse(), '1\nFizz\n')
 
-
+ def test_parse_numbers_divisible_by_three_to_fizz(self):
+    self.assertEqual(FizzBuzz(3).parse(), '1\nFizz\n\Buzz\n')
 
 if __name__ == '__main__':
   unittest.main()
